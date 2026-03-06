@@ -97,7 +97,7 @@ function showLetter() {
         // Auto-scroll ke bawah
         letterBox.scrollTop = letterBox.scrollHeight;
         
-        setTimeout(typeWriter, 50); // Dipercepat sedikit untuk kenyamanan baca
+        setTimeout(typeWriter, 60); // Dipercepat sedikit untuk kenyamanan baca
       } else {
         // Saat selesai mengetik, tampilkan notifikasi
         showNotification('💝  Selamat ulang tahun NDUTT!', 3000);
@@ -118,3 +118,4 @@ function showLetter() {
   }, 800);
 
 }
+
