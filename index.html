@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>A Letter for You</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="music-btn" id="musicBtn" onclick="toggleMusic()">
+      <span class="music-icon">🎵</span>
+      <span class="music-text">Putar Musik</span>
+    </button>
+    
+    <div class="intro" id="introText">
+      i hope you read this, even if it's too late.
+    </div>
+    <button class="btn" onclick="showLetter()">Read it</button>
+
+    <div class="letter" id="letterBox">
+      <p id="typedText"></p>
+    </div>
+
+    <audio id="bgMusic" loop>
+      <source src="here.mp3" type="audio/mpeg">
+      Browser Anda tidak mendukung elemen audio.
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
